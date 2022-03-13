@@ -75,8 +75,8 @@ Build With and On :
 * [Vim](https://github.com/vim/vim)
 
 Tested On :
-* [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
-* [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+* [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6) - [x]
+* [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) - [x]
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
