@@ -76,7 +76,7 @@ Build With and On :
 
 Tested On :
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
-* - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6) - [x]
+* - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
