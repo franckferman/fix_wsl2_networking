@@ -3,12 +3,12 @@ Fix connection issues related to WSL2.
 
 <div id="top"></div>
 
-[![Contributors][contributors-shield][https://github.com/franckferman/fix_wsl2_networking/graphs/contributors]
-[![Forks][forks-shield][https://github.com/franckferman/fix_wsl2_networking/network/members]
-[![Stargazers][stars-shield][https://github.com/franckferman/fix_wsl2_networking/stargazers]
-[![Issues][issues-shield][/https://github.com/franckferman/fix_wsl2_networking/issues]
-[![MIT License][license-shield][https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE]
-[![LinkedIn][linkedin-shield][https://www.linkedin.com/in/fferman42]
+[![Contributors][contributors-shield]][https://github.com/franckferman/fix_wsl2_networking/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/franckferman/fix_wsl2_networking/network/members]
+[![Stargazers][stars-shield]][https://github.com/franckferman/fix_wsl2_networking/stargazers]
+[![Issues][issues-shield]][https://github.com/franckferman/fix_wsl2_networking/issues]
+[![MIT License][license-shield]][https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/fferman42]
 
 <br />
 <div align="center">
