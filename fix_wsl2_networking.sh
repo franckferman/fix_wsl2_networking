@@ -12,14 +12,8 @@ if [ "$UID" -ne "$UID_ROOT" ]
 then
   echo "${red}Sorry, you must run this script as root.${reset}"
   exit $ERROR
-fi
-
-if [ -n "$1" ]
-then
-  echo "No parameters are supported by this script. Please run this without parameters."
-  exit $ERROR
-else
-  main
+  else
+    main
 fi
 }
 
