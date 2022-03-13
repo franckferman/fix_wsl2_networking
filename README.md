@@ -1,4 +1,4 @@
-<div id="top" align="center"></div>
+<div id="top"></div>
 
 [![Contributors][contributors-shield]](https://github.com/franckferman/fix_wsl2_networking/graphs/contributors)
 [![Forks][forks-shield]](https://github.com/franckferman/fix_wsl2_networking/network/members)
