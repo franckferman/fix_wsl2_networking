@@ -121,6 +121,8 @@ To run the script, you just need to use the following command.
 ```sh
   ./fix_wsl2_networking.sh
   ```
+  
+  [![asciicast](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm.svg)](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
