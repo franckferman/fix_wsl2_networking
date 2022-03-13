@@ -19,7 +19,7 @@ Fix connection issues related to WSL2.
 <h3 align="center">project_title</h3>
 
   <p align="center">
-    project_description
+    Fix connection issues related to WSL2.
     <br />
     <a href="https://github.com/franckferman/fix_wsl2_networking"><strong>Explore the docs »</strong></a>
     <br />
