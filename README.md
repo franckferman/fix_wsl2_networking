@@ -12,7 +12,7 @@ Fix connection issues related to WSL2.
 
 <br />
 <div align="center">
-  <a href="https://github.com/franckferman/fix_wsl2_networking">
+  <a href="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/glass-science.png">
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
