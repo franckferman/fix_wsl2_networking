@@ -90,23 +90,23 @@ This repository is not intended to teach you how to install (and configure) WSL2
 To start, you need to download my script and change the permission of it to be able to run it on your Linux distribution. This part is reserved for beginners who are not used to using and downloading tools from Github. See even reserved for beginners in computer science in general. There are many solutions to download and then run my script on your distro but I'll show you mine.
 
 * From PowerShell
-  ```sh
-  Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh -Destination C:\
-  ```
+```sh
+Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh -Destination C:\
+```
   
   This command will download my script to the root of your system (C:\).
   
   * Now, from your Linux distribution (on which you have your connection problems).
-  ```sh
-  cp /mnt/c/fix_wsl2_networking.sh .
-  chmod a+x ./fix_wsl2_networking.sh
-  ```
+```sh
+cp /mnt/c/fix_wsl2_networking.sh .
+chmod a+x ./fix_wsl2_networking.sh
+```
   
   The first command allows you to copy the script (previously downloaded with PowerShell on your main operating system) to the current directory on your Linux distribution.
   For more information on the cp command, its parameters, and how it works :
-   ```sh
-  man cp
-  ```
+```sh
+man cp
+```
   
   The second command simply allows you to change the permissions of the file that will allow you to run the script.
    For more information on the chmod command, its parameters, and how it works :
@@ -119,8 +119,8 @@ To start, you need to download my script and change the permission of it to be a
 
 To run the script, you just need to use the following command.
 ```sh
-  ./fix_wsl2_networking.sh
-  ```
+./fix_wsl2_networking.sh
+```
   
   [![asciicast](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm.svg)](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm)
 
