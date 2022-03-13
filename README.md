@@ -1,6 +1,3 @@
-# fix_wsl2_networking
-Fix connection issues related to WSL2.
-
 <div id="top"></div>
 
 [![Contributors][contributors-shield]](https://github.com/franckferman/fix_wsl2_networking/graphs/contributors)
