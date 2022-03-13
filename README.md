@@ -24,7 +24,7 @@ Fix connection issues related to WSL2.
     <a href="https://github.com/franckferman/fix_wsl2_networking"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/franckferman/fix_wsl2_networking">View Demo</a>
+    <a href="https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm">View Demo</a>
     ·
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Report Bug</a>
     ·
