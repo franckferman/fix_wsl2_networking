@@ -62,7 +62,7 @@ Fix connection issues related to WSL2.
 
 [![asciicast](https://asciinema.org/a/3Spj6xlfc2E4KgdS4htiJVUfM.svg)](https://asciinema.org/a/3Spj6xlfc2E4KgdS4htiJVUfM)
 
-This repository was created in order to repair the connection problem related to WSL2.
+This repository was created in order to repair the connection problem related to WSL2 (as you can see above).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
