@@ -66,14 +66,17 @@ This repository was created in order to repair the connection problem related to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With
+### Built With and and Tested On
 
 Here are the different tools that I used to create my script and performed my tests.
 
+- Build With and On
 * [WSL2](https://github.com/microsoft/WSL2-Linux-Kernel)
+* [Vim](https://github.com/vim/vim)
+
+- Tested On
 * [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
 * [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
-* [Vim](https://github.com/vim/vim)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
