@@ -66,7 +66,7 @@ This repository was created in order to repair the connection problem related to
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With and and Tested On
+### Built With and Tested On
 
 Here are the different tools that I used to create my script and performed my tests.
 
