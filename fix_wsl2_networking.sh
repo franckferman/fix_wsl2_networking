@@ -20,15 +20,10 @@ fi
 main()
 {
 SUCCESSFUL=0
-sudo chattr -i /etc/wsl.conf>/dev/null
-sudo rm /etc/wsl.conf>/dev/null
 
 sudo echo "[network]">/etc/wsl.conf
 sudo echo "generateResolvConf=false">>/etc/wsl.conf
 sudo chattr +i /etc/wsl.conf
-
-sudo chattr -i /etc/resolv.conf>/dev/null
-sudo rm /etc/resolv.conf>/dev/null
 
 sudo echo "nameserver 1.1.1.1">/etc/resolv.conf
 sudo echo "nameserver 1.0.0.1">>/etc/resolv.conf
