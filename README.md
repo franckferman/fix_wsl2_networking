@@ -16,7 +16,7 @@ Fix connection issues related to WSL2.
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/glass-science.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">fix_wsl2_networking</h3>
 
   <p align="center">
     Fix connection issues related to WSL2.
