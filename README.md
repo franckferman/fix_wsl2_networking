@@ -10,6 +10,8 @@ Fix connection issues related to WSL2.
 [![MIT License][license-shield]][https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/fferman42]
 
+[1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle
+
 <br />
 <div align="center">
   <a href="https://github.com/franckferman/fix_wsl2_networking">
