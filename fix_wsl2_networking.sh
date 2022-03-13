@@ -26,6 +26,7 @@ sudo echo "generateResolvConf=false">>/etc/wsl.conf
 sudo chattr +i /etc/wsl.conf
 
 sudo rm /etc/resolv.conf
+sudo touch /etc/resolv.conf
 sudo echo "nameserver 1.1.1.1">/etc/resolv.conf
 sudo echo "nameserver 1.0.0.1">>/etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
