@@ -10,7 +10,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/glass-science.png" alt="Logo" width="80" height="80">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">fix_wsl2_networking</h3>
