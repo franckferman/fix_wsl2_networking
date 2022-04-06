@@ -22,6 +22,11 @@ reset=`tput sgr0`
 main()
 {
 success=0
+error=77
+
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
 
 clear
 echo "Which DNS servers do you want to choose?"
@@ -57,6 +62,20 @@ read -p "Your choice: " userChoice
         secDNS="149.112.112.112"
     fi
 
+    if [ "$userChoice" -ge "5" ]
+        then
+        echo
+        echo -n "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
+        exit $error
+    fi
+
+    if [ "$userChoice" -le "0" ]
+        then
+        echo
+        echo -n "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
+        exit $error
+    fi
+
 file="/etc/wsl.conf"
     if [ -f "/etc/wsl.conf" ]; then
         sudo chattr -i "$file"
@@ -78,14 +97,6 @@ sudo echo "nameserver $secDNS">>/etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
 
 exit $success
-}
-
-test()
-{
-file=/etc/wsl.conf
-if [ -f "$/etc/wsl.conf" ]; then
-    sudo chattr -i $file
-fi
 }
 
 Check_AdminRights
