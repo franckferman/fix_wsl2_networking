@@ -16,7 +16,7 @@
 <h3 align="center">fix_wsl2_networking</h3>
 
   <p align="center">
-    Fix connection issues related to WSL2.
+    Solve connection problems related to WSL2.
     <br />
     <a href="https://github.com/franckferman/fix_wsl2_networking"><strong>Explore the docs »</strong></a>
     <br />
@@ -35,7 +35,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#tested-on">Tested on</a></li>
       </ul>
     </li>
     <li>
@@ -56,65 +56,68 @@
 
 [![asciicast](https://asciinema.org/a/3Spj6xlfc2E4KgdS4htiJVUfM.svg)](https://asciinema.org/a/3Spj6xlfc2E4KgdS4htiJVUfM)
 
-This repository was created in order to repair the connection problem related to WSL2 (as you can see above).
+This script was created in order to solve connection problems related to WSL2.
+
+This problem has been observed by many people, on many systems using WSL2 such as Debian, Ubuntu, Kali Linux...
+
+This problem can easily be solved temporarily by changing some configuration files. The problem is that it usually doesn't last and the problem starts again...
+
+Again, many people have reported this problem, including people I know who have asked me if I could provide a solution.
+
+That's why, once again, I decided to create this repository.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-### Built With and Tested On
+### Tested On
 
-Here are the different tools that I used to create my script and performed my tests.
-
-Build With and On :
-* [WSL2](https://github.com/microsoft/WSL2-Linux-Kernel)
-* [Vim](https://github.com/vim/vim)
-
-Tested On :
+The script has been tested and the tests have been performed with WSL2 on these systems:
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
-* - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9nblggh4msv6)
+* - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9pdxgncfsczv)
+* - [x] [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This repository is not intended to teach you how to install (and configure) WSL2 on your operating system. I assume that you already have your distribution ready and installed on your system and that you are precisely facing the connection problem.
+I won't show you how to set up WSL2 and install a system.
+
+For the simple reason that this repository is not a course, it has, once again, simply for the sole purpose of helping you to solve the Internet connectivity problems that users encounter when using WSL2 with a Linux distribution.
 
 ### Prerequisites
 
-To start, you need to download my script and change the permission of it to be able to run it on your Linux distribution. This part is reserved for beginners who are not used to using and downloading tools from Github. See even reserved for beginners in computer science in general. There are many solutions to download and then run my script on your distro but I'll show you mine.
+To start, you will download my script and place it in the root of your Windows system.
 
-* From PowerShell
+* To do this, launch PowerShell with Administrator rights and run the following command:
 ```sh
-Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh -Destination C:\
+Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh -Destination "C:\" -DisplayName "fix_wsl2_networking - Downloading function - Franck FERMAN." -Description "Downloading the script."
 ```
-  
-  This command will download my script to the root of your system (C:\).
-  
-  * Now, from your Linux distribution (on which you have your connection problems).
-```sh
-cp /mnt/c/fix_wsl2_networking.sh .
-chmod a+x ./fix_wsl2_networking.sh
-```
-  
-  The first command allows you to copy the script (previously downloaded with PowerShell on your main operating system) to the current directory on your Linux distribution.
-  For more information on the cp command, its parameters, and how it works :
-```sh
-man cp
-```
-  
-  The second command simply allows you to change the permissions of the file that will allow you to run the script.
-   For more information on the chmod command, its parameters, and how it works :
-   ```sh
-  man chmod
-  ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-To run the script, you just need to use the following command.
+After downloading the script to the root of your Windows system as seen above, you will go to the terminal of your Linux system.
+  
+  * From your Linux terminal, on which you have connectivity problems, run the following commands:
 ```sh
-./fix_wsl2_networking.sh
+cd ~;cp /mnt/c/fix_wsl2_networking.sh .;chmod a+x ./fix_wsl2_networking.sh;sudo ./fix_wsl2_networking.sh
 ```
+  
+I am not here to teach you how to use a Linux terminal but to summarize we have: change directory to go to the home directory of our Linux user, copy the script (which was in the root of Windows system) in the current directory of our Linux user (home), change the permissions of the file (script) to add execution rights, then run it with Administrator rights (sudo).
+
+  * For more information on the commands used, remember that the man is your friend:
+```sh
+man cd
+man cp
+man chmod
+```
+  
+After testing the connectivity of your Linux system, you can return to your PowerShell terminal to delete the script.
+   ```sh
+Remove-Item -Path "C:\fix_wsl2_networking.sh" -Force
+  ```
+  
+Once this is done, everything should work.
   
   [![asciicast](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm.svg)](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm)
 
