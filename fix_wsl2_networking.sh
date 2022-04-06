@@ -58,7 +58,7 @@ read -p "Your choice: " userChoice
     fi
 
 sudo echo [network]>/etc/wsl.conf
-sudo echo -n "generateResolvConf=false">>/etc/wsl.conf
+sudo echo "generateResolvConf=false">>/etc/wsl.conf
 sudo chattr +i /etc/wsl.conf
 
 sudo rm /etc/resolv.conf
