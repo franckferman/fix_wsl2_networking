@@ -57,17 +57,35 @@ read -p "Your choice: " userChoice
         secDNS="149.112.112.112"
     fi
 
+file="/etc/wsl.conf"
+    if [ -f "/etc/wsl.conf" ]; then
+        sudo chattr -i "$file"
+        sudo rm "$file"
+    fi
+
 sudo echo [network]>/etc/wsl.conf
 sudo echo "generateResolvConf=false">>/etc/wsl.conf
 sudo chattr +i /etc/wsl.conf
 
-sudo rm /etc/resolv.conf
-sudo touch /etc/resolv.conf
+file="/etc/resolv.conf"
+    if [ -f "/etc/resolv.conf" ]; then
+        sudo chattr -i "$file"
+        sudo rm "$file"
+    fi
+
 sudo echo "nameserver $primDNS">/etc/resolv.conf
 sudo echo "nameserver $secDNS">>/etc/resolv.conf
 sudo chattr +i /etc/resolv.conf
 
 exit $success
+}
+
+test()
+{
+file=/etc/wsl.conf
+if [ -f "$/etc/wsl.conf" ]; then
+    sudo chattr -i $file
+fi
 }
 
 Check_AdminRights
