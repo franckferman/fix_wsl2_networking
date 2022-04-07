@@ -54,6 +54,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![asciicast](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm.svg)](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm)
+
 This script was created in order to solve connection problems related to WSL2.
 
 This problem has been observed by many people, on many systems using WSL2 such as Debian, Ubuntu, Kali Linux...
