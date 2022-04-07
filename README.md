@@ -21,7 +21,7 @@
     <a href="https://github.com/franckferman/fix_wsl2_networking"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm">View Demo</a>
+    <a href="https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq">View Demo</a>
     ·
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Report Bug</a>
     ·
@@ -119,7 +119,7 @@ Remove-Item -Path "C:\fix_wsl2_networking.sh" -Force
   
 Once this is done, everything should work.
   
-  [![asciicast](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm.svg)](https://asciinema.org/a/C3OT7oVZOARXTUUISkpgdfIDm)
+  [![asciicast](https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq.svg)](https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
