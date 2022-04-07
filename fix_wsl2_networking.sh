@@ -78,23 +78,24 @@ read -p "Your choice: " userChoice
 
 file="/etc/wsl.conf"
     if [ -f "/etc/wsl.conf" ]; then
-        sudo chattr -i "$file"
+        sudo chattr -i "$file" &>/dev/null
         sudo rm "$file"
     fi
 
-sudo echo "[network]">/etc/wsl.conf
-sudo echo "generateResolvConf=false">>/etc/wsl.conf
-sudo chattr +i /etc/wsl.conf
+sudo echo "[network]">$file
+sudo echo "generateResolvConf=false">>$file
+sudo chattr +i $file &>/dev/null
 
 file="/etc/resolv.conf"
     if [ -f "/etc/resolv.conf" ]; then
-        sudo chattr -i "$file"
+        sudo chattr -i "$file" &>/dev/null
         sudo rm "$file"
     fi
 
-sudo echo "nameserver $primDNS">/etc/resolv.conf
-sudo echo "nameserver $secDNS">>/etc/resolv.conf
-sudo chattr +i /etc/resolv.conf
+sudo touch $file
+sudo echo "nameserver $primDNS">$file
+sudo echo "nameserver $secDNS">>$file
+sudo chattr +i $file &>/dev/null
 
 exit $success
 }
