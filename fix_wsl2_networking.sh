@@ -82,7 +82,7 @@ file="/etc/wsl.conf"
         sudo rm "$file"
     fi
 
-sudo echo [network]>/etc/wsl.conf
+sudo echo "[network]">/etc/wsl.conf
 sudo echo "generateResolvConf=false">>/etc/wsl.conf
 sudo chattr +i /etc/wsl.conf
 
