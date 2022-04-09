@@ -65,14 +65,14 @@ read -p "Your choice: " userChoice
     if [ "$userChoice" -ge "5" ]
         then
         echo
-        echo -n "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
+        echo "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
         exit $error
     fi
 
     if [ "$userChoice" -le "0" ]
         then
         echo
-        echo -n "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
+        echo "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
         exit $error
     fi
 
