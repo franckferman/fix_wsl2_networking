@@ -12,7 +12,7 @@ reset=`tput sgr0`
 
     if [ "$UID" -ne "$uid_root" ]
         then
-        echo -n "${red}Error, please run the script with the command ${green}sudo ./fix_wsl2_networking.sh${reset}"
+        echo "${red}Error, please run the script with the command ${green}sudo ./fix_wsl2_networking.sh${reset}"
         exit $error
     else
         main
