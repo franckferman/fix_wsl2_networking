@@ -5,7 +5,7 @@
 [![Stargazers][stars-shield]](https://github.com/franckferman/fix_wsl2_networking/stargazers)
 [![Issues][issues-shield]](https://github.com/franckferman/fix_wsl2_networking/issues)
 [![MIT License][license-shield]](https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/fferman42)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman)
 
 <br />
 <div align="center">
@@ -143,7 +143,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/fferman42) - fferman@protonmail.ch
+Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
 
 Project Link: [https://github.com/franckferman/fix_wsl2_networking](https://github.com/franckferman/fix_wsl2_networking)
 
@@ -162,5 +162,5 @@ Project Link: [https://github.com/franckferman/fix_wsl2_networking](https://gith
 [license-shield]: https://img.shields.io/github/license/franckferman/fix_wsl2_networking.svg?style=for-the-badge
 [license-url]: https://github.com/franckferman/fix_wsl2_networking/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/fferman42
+[linkedin-url]: https://linkedin.com/in/franckferman
 [product-screenshot]: images/screenshot.png
