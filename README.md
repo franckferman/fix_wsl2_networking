@@ -117,8 +117,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+Franck FERMAN - [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
