@@ -117,7 +117,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-[![ProtonMail][protonmail-shield]](https://www.linkedin.com/in/franckferman)
+fferman@protonmail.ch — [![ProtonMail][protonmail-shield]](mailto:fferman@protonmail.ch)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
