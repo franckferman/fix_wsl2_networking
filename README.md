@@ -101,10 +101,11 @@ Once you have successfully completed these steps, your connectivity issues shoul
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are the backbone of the open source community, making it an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion to improve this project, we encourage you to contribute by forking the repository and creating a pull request with your proposed changes. Alternatively, you can also open an issue with the tag "enhancement" to discuss your idea.
+
+If you find this project useful or appreciate the work that has been done, we would be grateful if you could give it a star. This will help raise the project's profile and attract more contributors in the future.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -120,17 +121,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/franckferman/fix_wsl2_networking.svg?style=for-the-badge
-[contributors-url]: https://github.com/franckferman/fix_wsl2_networking/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/franckferman/fix_wsl2_networking.svg?style=for-the-badge
-[forks-url]: https://github.com/franckferman/fix_wsl2_networking/network/members
 [stars-shield]: https://img.shields.io/github/stars/franckferman/fix_wsl2_networking.svg?style=for-the-badge
-[stars-url]: https://github.com/franckferman/fix_wsl2_networking/stargazers
 [issues-shield]: https://img.shields.io/github/issues/franckferman/fix_wsl2_networking.svg?style=for-the-badge
-[issues-url]: https://github.com/franckferman/fix_wsl2_networking/issues
 [license-shield]: https://img.shields.io/github/license/franckferman/fix_wsl2_networking.svg?style=for-the-badge
-[license-url]: https://github.com/franckferman/fix_wsl2_networking/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
-[linkedin-url]: https://linkedin.com/in/franckferman
 [protonmail-shield]: https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white
