@@ -1,108 +1,67 @@
 #!/usr/bin/env bash
-#: fix_wsl2_networking.sh
+# fix_wsl2_networking.sh
 
-red=`tput setaf 1`
-green=`tput setaf 2`
-reset=`tput sgr0`
+red=$(tput setaf 1)
+green=$(tput setaf 2)
+reset=$(tput sgr0)
 
 error=77
 
-Check_AdminRights()
-{
-uid_root=0
+check_admin_rights() {
+    uid_root=0
 
-    if [ "$UID" -ne "$uid_root" ]
-        then
+    if [ "$UID" -ne "$uid_root" ]; then
         echo "${red}Error, please run the script with sudo.${reset}"
         exit $error
-    
-    elif [ "$UID" -eq "$uid_root" ]
-        then
+    else
         main
-
-    else
-        echo
-        echo "${red}An unexpected error was caused.${reset}"
-        exit $error
-
     fi
 }
 
-main()
-{
-wslConfDir="/etc/wsl.conf"
-resolvConfDir="/etc/resolv.conf"
-success=0
+main() {
+    wsl_conf_dir="/etc/wsl.conf"
+    resolv_conf_dir="/etc/resolv.conf"
+    success=0
 
-clear
-echo "Which DNS servers do you want to choose?"
-echo 
-echo "1 - Cloudflare."
-echo "2 - Google."
-echo "3 - FDN (French Data Network)."
-echo "4 - Quad9."
-echo
-read -p "Your choice: " userChoice
+    clear
+    echo "Which DNS servers do you want to choose?"
+    echo 
+    echo "1 - Cloudflare."
+    echo "2 - Google."
+    echo "3 - FDN (French Data Network)."
+    echo "4 - Quad9."
+    echo
+    read -rp "Your choice: " user_choice
 
-    if [ "$userChoice" -eq "1" ]
-        then
-        primDNS="1.1.1.1"
-        secDNS="1.0.0.1"
-    
-    elif [ "$userChoice" -eq "2" ]
-        then
-        primDNS="8.8.8.8"
-        secDNS="8.8.4.4"
-    
-    elif [ "$userChoice" -eq "3" ]
-        then
-        primDNS="80.67.169.12"
-        secDNS="80.67.169.40"
-    
-    elif [ "$userChoice" -eq "4" ]
-        then
-        primDNS="9.9.9.9"
-        secDNS="149.112.112.112"
-    
-    elif [ "$userChoice" -ge "5" ]
-        then
-        echo
-        echo "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
-        exit $error
-    
-    elif [ "$userChoice" -le "0" ]
-        then
-        echo
-        echo "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
-        exit $error
-    
-    else
-        echo
-        echo "${red}An unexpected error was caused.${reset}"
-        exit $error
+    case "$user_choice" in
+        1) prim_dns="1.1.1.1"; sec_dns="1.0.0.1" ;;
+        2) prim_dns="8.8.8.8"; sec_dns="8.8.4.4" ;;
+        3) prim_dns="80.67.169.12"; sec_dns="80.67.169.40" ;;
+        4) prim_dns="9.9.9.9"; sec_dns="149.112.112.112" ;;
+        *)
+            echo "${red}Error, please select a valid choice: Only a number (from the list of choices) is expected as an answer.${reset}"
+            exit $error
+            ;;
+    esac
 
-    fi
+    [ -f "$wsl_conf_dir" ] && sudo chattr -i "$wsl_conf_dir" &> "/dev/null" && sudo rm -f "$wsl_conf_dir"
 
-    if [ -f "$wslConfDir" ]; then
-        sudo chattr -i "$wslConfDir"&>"/dev/null"
-        sudo rm -f "$wslConfDir"
-    fi
+    sudo bash -c "cat > \"$wsl_conf_dir\" <<- EOM
+[network]
+generateResolvConf=false
+EOM"
+    sudo chattr +i "$wsl_conf_dir" &> "/dev/null"
 
-sudo echo "[network]">"$wslConfDir"
-sudo echo "generateResolvConf=false">>"$wslConfDir"
-sudo chattr +i "$wslConfDir"&>"/dev/null"
+    [ -f "$resolv_conf_dir" ] && sudo chattr -i "$resolv_conf_dir" &> "/dev/null" && sudo rm -f "$resolv_conf_dir"
 
-    if [ -f "$resolvConfDir" ]; then
-        sudo chattr -i "$resolvConfDir"&>"/dev/null"
-        sudo rm -f "$resolvConfDir"
-    fi
+    sudo bash -c "cat > \"$resolv_conf_dir\" <<- EOM
+nameserver $prim_dns
+nameserver $sec_dns
+EOM"
+    sudo chattr +i "$resolv_conf_dir" &> "/dev/null"
 
-sudo touch "$resolvConfDir"
-sudo echo "nameserver $primDNS">"$resolvConfDir"
-sudo echo "nameserver $secDNS">>"$resolvConfDir"
-sudo chattr +i "$resolvConfDir"&>"/dev/null"
-
-exit $success
+    exit $success
 }
 
-Check_AdminRights
+check_admin_rights
+
