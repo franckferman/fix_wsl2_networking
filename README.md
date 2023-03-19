@@ -59,7 +59,7 @@ Whether you're experiencing this problem yourself or know someone who is, my scr
 ### Tested On
 
 The script has been tested on multiple systems with WSL2.
-</br>
+
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
 * - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9pdxgncfsczv)
 * - [x] [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)
