@@ -10,7 +10,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking" width="3000">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking" width="4000">
   </a>
   
   <a href="https://github.com/franckferman/fix_wsl2_networking">
