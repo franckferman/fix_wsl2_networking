@@ -134,4 +134,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [license-url]: https://github.com/franckferman/fix_wsl2_networking/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
 [linkedin-url]: https://linkedin.com/in/franckferman
-![protonmail-shield](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
+[protonmail-shield](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
