@@ -1,5 +1,6 @@
 <div id="top"></div>
 
+<div align="center">
 [![Contributors][contributors-shield]](https://github.com/franckferman/fix_wsl2_networking/graphs/contributors)
 [![Forks][forks-shield]](https://github.com/franckferman/fix_wsl2_networking/network/members)
 [![Stargazers][stars-shield]](https://github.com/franckferman/fix_wsl2_networking/stargazers)
@@ -8,7 +9,6 @@
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman)
 
 <br/>
-<div align="center">
   <a href="https://github.com/franckferman/fix_wsl2_networking">
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking">
   </a>
