@@ -117,7 +117,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Franck FERMAN - [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
+[![ProtonMail][protonmail-shield]](https://www.linkedin.com/in/franckferman)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -134,4 +134,4 @@ Franck FERMAN - [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franc
 [license-url]: https://github.com/franckferman/fix_wsl2_networking/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=blue
 [linkedin-url]: https://linkedin.com/in/franckferman
-[product-screenshot]: images/screenshot.png
+![protonmail-shield](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)
