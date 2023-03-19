@@ -24,9 +24,11 @@
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Request Feature</a>
   </p>
   
+<br/>
   <a href="https://github.com/franckferman/fix_wsl2_networking">
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking">
   </a>
+<br/>
 
 </div>
 
