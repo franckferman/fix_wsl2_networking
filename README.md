@@ -14,7 +14,7 @@
   </a>
   
   <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking" width="2000" height="6912">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking">
   </a>
   
   graphical_resources
