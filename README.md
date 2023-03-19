@@ -26,7 +26,7 @@
   
 <br/>
   <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking" width="722" height="496">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking" width="622" height="396">
   </a>
 <br/><br/>
 
