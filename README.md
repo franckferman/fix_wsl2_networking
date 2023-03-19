@@ -23,6 +23,11 @@
     ·
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Request Feature</a>
   </p>
+  
+  <a href="https://github.com/franckferman/fix_wsl2_networking">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking">
+  </a>
+
 </div>
 
 <details>
@@ -48,10 +53,6 @@
 </details>
 
 ## About
-
-  <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking">
-  </a>
 
 This script was specifically created to address the recurring problem faced by countless WSL2 users on various operating systems, including Debian, Ubuntu, Kali Linux, and more.
 
