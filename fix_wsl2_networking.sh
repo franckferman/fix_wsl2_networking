@@ -90,6 +90,7 @@ EOM"
 }
 
 main() {
+clear
 set_vars
 select_dns_servers
 setup_wsl_conf
