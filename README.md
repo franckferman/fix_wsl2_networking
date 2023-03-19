@@ -7,7 +7,6 @@
 [![Stargazers][stars-shield]](https://github.com/franckferman/fix_wsl2_networking/stargazers)
 [![Issues][issues-shield]](https://github.com/franckferman/fix_wsl2_networking/issues)
 [![MIT License][license-shield]](https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE)
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman)
 
 <br/>
   <a href="https://github.com/franckferman/fix_wsl2_networking">
