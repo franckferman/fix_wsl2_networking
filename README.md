@@ -28,6 +28,7 @@
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/demo-fix_wsl2_networking.png" alt="demo-fix_wsl2_networking" width="900" height="500">
   </a>
 <br/><br/>
+</div>
 
 <details>
   <summary>Table of Contents</summary>
@@ -50,8 +51,6 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
-  
-</div>
 
 ## About
 
