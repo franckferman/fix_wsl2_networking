@@ -117,9 +117,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
-
-Project Link: [https://github.com/franckferman/fix_wsl2_networking](https://github.com/franckferman/fix_wsl2_networking)
+Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/franckferman) [linkedin-shield] - fferman@protonmail.ch
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
