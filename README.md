@@ -48,24 +48,24 @@
 
 ## About
 
-This script was created in order to solve connection problems related to WSL2.
-<br/>This problem has been observed by many people, on many systems using WSL2 such as Debian, Ubuntu, Kali Linux...
-<br/>This problem can easily be solved temporarily by changing some configuration files. The problem is that it usually doesn't last and the problem starts again...
-<br/>Again, many people have reported this problem, including people I know who have asked me if I could provide a solution.
-<br/>That's why, once again, I decided to create this repository.
+<br/This script was specifically created to address the recurring problem faced by countless WSL2 users on various operating systems, including Debian, Ubuntu, Kali Linux, and more.
+
+While some have resorted to temporarily tweaking configuration files, the issue often persists, leaving frustrated users seeking a more sustainable fix. This is where my script comes in, providing a reliable and long-term solution that you can count on.
+
+Whether you're experiencing this problem yourself or know someone who is, my script is probably the solution you've been looking for.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Tested On
 
-The script has been tested and the tests have been performed with WSL2 on these systems:
+The script has been tested on multiple systems with WSL2.
+</br>
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
 * - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9pdxgncfsczv)
 * - [x] [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 ## Getting Started
 
 I won't show you how to set up WSL2 and install a system.
