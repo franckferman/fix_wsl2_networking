@@ -48,7 +48,7 @@
 
 ## About
 
-<br/>This script was specifically created to address the recurring problem faced by countless WSL2 users on various operating systems, including Debian, Ubuntu, Kali Linux, and more.
+This script was specifically created to address the recurring problem faced by countless WSL2 users on various operating systems, including Debian, Ubuntu, Kali Linux, and more.
 
 While some have resorted to temporarily tweaking configuration files, the issue often persists, leaving frustrated users seeking a more sustainable fix. This is where my script comes in, providing a reliable and long-term solution that you can count on.
 
@@ -59,7 +59,7 @@ Whether you're experiencing this problem yourself or know someone who is, my scr
 ### Tested On
 
 The script has been tested on multiple systems with WSL2.
-</br>
+
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
 * - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9pdxgncfsczv)
 * - [x] [Kali Linux](https://www.microsoft.com/en-us/p/kali-linux/9pkr34tncv07)
