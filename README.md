@@ -12,6 +12,12 @@
   <a href="https://github.com/franckferman/fix_wsl2_networking">
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/logo.png" alt="Logo" width="80" height="80">
   </a>
+  
+  <a href="https://github.com/franckferman/fix_wsl2_networking">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking" width="6912" height="2000">
+  </a>
+  
+  graphical_resources
 
 <h3 align="center">fix_wsl2_networking</h3>
 
