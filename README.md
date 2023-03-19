@@ -17,12 +17,7 @@
 
   <p align="center">
     Solve connection problems related to WSL2.
-    <br />
-    <a href="https://github.com/franckferman/fix_wsl2_networking"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq">View Demo</a>
-    ·
+    <br/><br/>
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Report Bug</a>
     ·
     <a href="https://github.com/franckferman/fix_wsl2_networking/issues">Request Feature</a>
@@ -33,7 +28,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about">About</a>
       <ul>
         <li><a href="#tested-on">Tested on</a></li>
       </ul>
@@ -51,20 +46,13 @@
   </ol>
 </details>
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![asciicast](https://asciinema.org/a/WkL7z4x5lBqCYPKZuGdbNPN3y.svg)](https://asciinema.org/a/WkL7z4x5lBqCYPKZuGdbNPN3y)
+## About
 
 This script was created in order to solve connection problems related to WSL2.
-
-This problem has been observed by many people, on many systems using WSL2 such as Debian, Ubuntu, Kali Linux...
-
-This problem can easily be solved temporarily by changing some configuration files. The problem is that it usually doesn't last and the problem starts again...
-
-Again, many people have reported this problem, including people I know who have asked me if I could provide a solution.
-
-That's why, once again, I decided to create this repository.
+<br/>This problem has been observed by many people, on many systems using WSL2 such as Debian, Ubuntu, Kali Linux...
+<br/>This problem can easily be solved temporarily by changing some configuration files. The problem is that it usually doesn't last and the problem starts again...
+<br/>Again, many people have reported this problem, including people I know who have asked me if I could provide a solution.
+<br/>That's why, once again, I decided to create this repository.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
