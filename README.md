@@ -29,8 +29,6 @@
   </a>
 <br/><br/>
 
-</div>
-
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -52,6 +50,8 @@
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
+  
+</div>
 
 ## About
 
