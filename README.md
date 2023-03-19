@@ -58,7 +58,7 @@ Whether you're experiencing this problem yourself or know someone who is, my scr
 
 ### Tested On
 
-The script has been tested on multiple systems with WSL2.
+The script has been tested on multiple systems with WSL2:
 
 * - [x] [Debian](https://www.microsoft.com/en-us/p/debian/9msvkqc78pk6)
 * - [x] [Ubuntu](https://www.microsoft.com/en-us/p/ubuntu/9pdxgncfsczv)
@@ -68,51 +68,31 @@ The script has been tested on multiple systems with WSL2.
 
 ## Getting Started
 
-I won't show you how to set up WSL2 and install a system.
+Please note that this repository is solely focused on resolving Internet connectivity issues faced by users when using WSL2 with a Linux distribution. As such, I will not be providing guidance or instructions on how to set up WSL2 or install a specific operating system.
 
-For the simple reason that this repository is not a course, it has, once again, simply for the sole purpose of helping you to solve the Internet connectivity problems that users encounter when using WSL2 with a Linux distribution.
+My primary objective is to provide a reliable and effective solution to address the connection issues encountered by WSL2 users, and I hope that my script can help you overcome these challenges and streamline your workflow.
 
 ### Prerequisites
 
-To start, you will download my script and place it in the root of your Windows system.
+To begin, you can download my script by running the following command in PowerShell:
 
-* To do this, launch PowerShell with Administrator rights and run the following command:
-```sh
-Start-BitsTransfer -Source https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh -Destination "C:\" -DisplayName "fix_wsl2_networking - Downloading function - Franck FERMAN." -Description "Downloading the script."
+```PowerShell
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/fix_wsl2_networking.sh" -OutFile "C:\Users\$env:UserName\fix_wsl2_networking.sh"
 ```
 
-<!-- USAGE EXAMPLES -->
 ## Usage
 
-After downloading the script to the root of your Windows system as seen above, you will go to the terminal of your Linux system.
-  
-  * From your Linux terminal, on which you have connectivity problems, run the following commands:
-```sh
-cd ~;cp /mnt/c/fix_wsl2_networking.sh .;chmod a+x ./fix_wsl2_networking.sh;sudo ./fix_wsl2_networking.sh
-```
-  
-I am not here to teach you how to use a Linux terminal but to summarize we have: change directory to go to the home directory of our Linux user, copy the script (which was in the root of Windows system) in the current directory of our Linux user (home), change the permissions of the file (script) to add execution rights, then run it with Administrator rights (sudo).
+Once the script has been downloaded, you can proceed to the terminal of your Linux system to move then run the script and fix your connectivity issues.
 
-  * For more information on the commands used, remember that the man is your friend:
 ```sh
-man cd
-man cp
-man chmod
+cd ~&&mv /mnt/c/Users/Your_Windows_UserName/fix_wsl2_networking.sh&&chmod +x ./fix_wsl2_networking.sh&&sudo ./fix_wsl2_networking.sh
 ```
-  
-After testing the connectivity of your Linux system, you can return to your PowerShell terminal to delete the script.
-   ```sh
-Remove-Item -Path "C:\fix_wsl2_networking.sh" -Force
-  ```
-  
-Once this is done, everything should work.
-  
-  [![asciicast](https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq.svg)](https://asciinema.org/a/6bFdhWtusnKPAiitaZDAAmnoq)
+
+Once you have successfully completed these steps, your connectivity issues should be resolved.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -122,14 +102,12 @@ Don't forget to give the project a star! Thanks again!
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contact
 
 Franck FERMAN - [LinkedIn](https://www.linkedin.com/in/franckferman) - fferman@protonmail.ch
 
