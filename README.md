@@ -7,18 +7,16 @@
 [![MIT License][license-shield]](https://github.com/franckferman/fix_wsl2_networking/blob/main/LICENSE)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/franckferman)
 
-<br />
+<br/>
 <div align="center">
+  <a href="https://github.com/franckferman/fix_wsl2_networking">
+    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking">
+  </a>
+  
   <a href="https://github.com/franckferman/fix_wsl2_networking">
     <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/img/logo.png" alt="Logo" width="80" height="80">
   </a>
   
-  <a href="https://github.com/franckferman/fix_wsl2_networking">
-    <img src="https://raw.githubusercontent.com/franckferman/fix_wsl2_networking/main/graphical_resources/banner-fix_wsl2_networking.jpg" alt="banner-fix_wsl2_networking">
-  </a>
-  
-  graphical_resources
-
 <h3 align="center">fix_wsl2_networking</h3>
 
   <p align="center">
