@@ -1,0 +1,47 @@
+# Bash
+*.bak
+*.orig
+*.tmp
+*.old
+*.pid
+*.lock
+*.sock
+*.history
+*.trace
+*.err
+nohup.out
+
+# Logs
+*.log
+*.log.*
+*.out
+
+# Editors
+*.swp
+*.swo
+*.swn
+*.viminfo
+.nanorc
+*.save
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*~
+*.spacemacs
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project
+CLAUDE.md
